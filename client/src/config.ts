@@ -6,5 +6,6 @@ export const authConfig = {
   // domain: 'dev-nd9990-p4.us.auth0.com',
   domain: 'dev-nxjipcgt.us.auth0.com',            // Auth0 domain
   clientId: 'ZxdJHAQxsYUpizY6Wz9KjVOAezL9pCdn',          // Auth0 client id
-  callbackUrl: 'http://localhost:3000/callback'
+  callbackUrl: 'http://website-react-ts.s3.amazonaws.com/index.html/callback'
 }
+
