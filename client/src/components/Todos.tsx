@@ -139,8 +139,8 @@ export class Todos extends React.PureComponent<TodosProps, TodosState> {
             labelPosition="left"  
             onClick={() => this.setState({ ...this.state, todoPopup: true })}
           >
-            <Icon name="pencil" />
-            New Task
+            <Icon name="food" />
+            New Meal
           </Button>
         </Grid.Column>
         <Grid.Column width={16}>
@@ -260,6 +260,6 @@ export class Todos extends React.PureComponent<TodosProps, TodosState> {
     const date = new Date()
     date.setDate(date.getDate() + 7)
 
-    return dateFormat(date, 'yyyy-mm-dd') as string
+    return dateFormat(date, 'yyyy-mm-dd HH:MM') as string
   }
 }
